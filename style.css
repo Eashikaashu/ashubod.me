@@ -23,3 +23,23 @@ body, html { background-color: #071426 !important; }
 .nav-contact, .project-link { border-color: #34516f !important; }
 .tags span { border-color: #233852 !important; }
 @media (max-width: 620px) { .nav { background: #0d1f38 !important; } }
+
+
+/* FINAL NAVY BLUE PALETTE */
+:root{--bg:#071426;--panel:#0d1f38;--text:#f2f6fc;--muted:#a8b8cb;--line:#233852;--accent:#7db7ff}
+html,body{background:#071426!important;color:#f2f6fc!important}
+.site-header,.section,.footer{border-color:#233852!important}
+.nav{color:#d4e2f3!important}
+.nav-contact,.project-link{border-color:#34516f!important}
+.hero-visual{background:radial-gradient(ellipse at center,#18385c 0%,#0d1f38 42%,#071426 76%)!important}
+.visual-grid{background-image:linear-gradient(#7db7ff0a 1px,transparent 1px),linear-gradient(90deg,#7db7ff0a 1px,transparent 1px)!important}
+.orbit{border-color:#7db7ff55!important}
+.orbit-two{border-color:#7db7ff38!important}
+.visual-core{border-color:#7db7ff99!important;background:radial-gradient(circle at 30% 25%,#24466b,#071426 68%)!important;box-shadow:0 0 70px #7db7ff18,inset 0 0 32px #7db7ff12!important}
+.status-dot{background:#7db7ff!important;box-shadow:0 0 12px #7db7ff77!important}
+.hero h1 em,h2 em,.brand span,.section-kicker span,.project-number,.interest-icon,.cross{color:#7db7ff!important}
+.button-light{background:#7db7ff!important;color:#071426!important}
+.button-light:hover,.project-link:hover{background:#b6d8ff!important;color:#071426!important;border-color:#b6d8ff!important}
+.interest-grid article{background:linear-gradient(145deg,#10243d,#0a192c)!important;border-color:#233852!important}
+.tags span{border-color:#233852!important}
+@media(max-width:620px){.nav{background:#0d1f38!important}}
